@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: grey;
+}
+
+/* Image section  */
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Navigation section */
+.navbar ul {
+    
+    padding: 0px;
+    margin: 30px;
+    border-radius: 15px;  
+    display: flex; 
+    list-style: none;
+    background-color: #3f3e40;
+    
+}
+
+.navbar ul li{
+    border: 3px solid rgb(14, 13, 13);
+    padding: 10px 60px;
+    margin: 15px 15px;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: rgb(81 81 93);
+    margin-left: 125px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar ul li:hover{
+    background-color: #645e69;
+}
+
+
+.box{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 0px;
+    margin: 35px 5px;
+    background-color: rgb(86 86 90);
+
+}
+
+.heading{
+    
+    padding: 15px;
+    margin: 40px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-shadow: 4px 3px 5px #1e1f21;
+    box-shadow: 5px 5px 5px;
+}
+
+p{
+    border: 3px solid #323032;
+    border-radius: 11px;
+    font-size: 15px;
+    padding: 53px 30px;
+    margin: 45px 43px;
+    background-color: rgb(122, 120, 123);
+    box-shadow: 3px 3px 4px black;
+}
+
+/* Making the web page responsive */
+
+@media(max-width:300px) {
+    body{
+        background-color: grey;
+    }
+    img{
+        width: 285px;
+    }
+    .navbar ul {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+   
+    .heading{
+        margin: 40px 18px
+    }
+    
+
+}
+
+@media(min-width:300px ) and (max-width:600px){
+    body{
+        background-color: grey;
+    }
+   
+    .navbar ul {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+   
+    
+
+    .heading{
+        margin: 40px 18px
+    }
+    .navbar ul li {
+        border: 3px solid rgb(14, 13, 13);
+        padding: 13px 25px;
+        margin: 15px 15px;
+        font-size: 17px;
+        border-radius: 15px;
+        background-color: rgb(81 81 93);
+        margin-left: 20px;
+    }
+    
+    
+}
+
+@media (max-width:1400px){
+    body{
+        background-color: grey;
+    }
+    .navbar ul {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+   
+    
+
+    .heading{
+        margin: 40px 18px
+    }
+    .navbar ul li {
+        border: 3px solid rgb(14, 13, 13);
+        padding: 13px 25px;
+        margin: 15px 15px;
+        font-size: 17px;
+        border-radius: 15px;
+        background-color: rgb(81 81 93);
+        margin-left: 20px;
+    }
+    
+    
+    
+}
+
+
+ 
